@@ -8,6 +8,16 @@
 body , html {
     height: 100%;
     width: 100%;
+    background-image: linear-gradient(to right, rgb(28, 18, 18) , rgb(39, 37, 37));;
+}
+
+h1{
+    font-size: 12rem;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    padding-top: 15rem;
+    text-shadow: 10px 10px rgb(4, 83, 114);
 }
 
 #container{
@@ -19,7 +29,7 @@ body , html {
     left: 50%;
     transform: translate(-50% , -50%);
     border-radius: 15px;
-    box-shadow: 10px 10px 30px;
+    box-shadow: 1px 10px 30px white;
 }
 
 input{
